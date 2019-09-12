@@ -3,9 +3,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>My Resume</title>
-
+  <!---Viewport link--->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---Title--->
+  <title>SAM ALLEN | RESUME</title>
+  <!---Link to normalize--->
+  <!---Link to CSS file with LESS-->
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -14,6 +17,51 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <header>
+    <div class="name">
+      <h1>SAM ALLEN</h1>
+      <h2>WEB DEVELOPER</h2>
+    </div>
+    <img src="img/schooner.jpg" alt="Image of a sailboat cutter.">
+    <nav>
+      <a href="#">INTRO</a>
+      <a href="#">SKILLS</a>
+      <a href="#">EXPERIENCE</a>
+      <a href="#">CONTACT</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>INTRO</h2>
+    <p>A short blurb about me.</p>
+  </section>
+
+  <section class="skills">
+    <h2>SKILLS</h2>
+    <h3>Sub-heading about my skills</h3>
+    <ul style="list-style-type:square">
+        <li>Awesome thing</li>
+        <li>Amazing thing</li>
+        <li>Cool thing</li>
+        <li>Great thing</li>
+    </ul>
+  </section>
+
+  <section class="experience">
+    <h2>EXPERIENCE</h2>
+    <h3>Sub-heading about my experience</h3>
+    <ul style="list-style-type:square">
+        <li>Awesome thing</li>
+        <li>Amazing thing</li>
+        <li>Cool thing</li>
+        <li>Great thing</li>
+      </ul>
+  </section>
+
+  <section class="contact">
+    <h2>CONTACT</h2>
+    <h3>Feel free to contact me about my skills & experience.</h3>
+    <button>EMAIL ME</button>
+  </section>
 </body>
 </html>
